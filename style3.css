@@ -1,0 +1,202 @@
+body{
+background-color: #faebd7;
+}
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative; 
+}
+
+.dropdown {
+  background-color: rgb(1, 139, 139);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #4c9e9e;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+h3{
+    
+color: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+    text-align: center;
+font-size: 50px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40pt;
+  color: white;
+}
+
+mark {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;}
+
+.paragraph{
+        
+    height:1000pt;
+  
+    font-size:100px;
+}
+h4{
+    padding-left: 20;
+    padding-right: 20;
+    padding-bottom: 20;
+    padding-top: 20;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10pt;
+    font-size: 35px;
+    text-align: left;
+}
+
+.box {
+    padding: 2px;
+    width: 70%;
+    margin: 10px auto;
+    color: black;
+    text-align: center;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 2; /* Remove borders */
+  outline: 2; /* Remove outline */
+  background-color: #faebd7; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+    transition-duration: 0.4s;
+}
+
+#myBtn:hover {
+  background-color: #e0d5c5; /* Add a dark-grey background on hover */
+    font-size: 40px;
+}
+.footer {   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+nav{
+    background-color: #faebd7;
+    width:100%;
+    height:40px;
+    z-index: 999;
+}
+
+/* Customizes nav*/
+nav a{
+    width:100px;
+    height:100px;
+    color: black;
+    font-family: "Cardo";
+    font-size: 18pt;
+}
+
+/* Customizes nav*/
+nav ul li a{
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Customizes nav*/
+nav ul li{
+   display: inline;
+    list-style-type: none;
+}
+
+.center_img {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

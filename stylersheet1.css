@@ -1,0 +1,147 @@
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40pt;
+  color: white;
+}
+
+mark {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+body {
+    background-color:#faebd7;
+}
+
+h2 {
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+    font-size: 20px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+    background-color: #304146;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.video {
+    padding-left: 470px;
+    padding-right:470px;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+nav{
+    background-color: #faebd7;
+    width:100%;
+    height:40px;
+    z-index: 999;
+}
+
+/* Customizes nav*/
+nav a{
+    width:100px;
+    height:100px;
+    color: black;
+    font-family: "Cardo";
+    font-size: 18pt;
+}
+
+/* Customizes nav*/
+nav ul li a{
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Customizes nav*/
+nav ul li{
+   display: inline;
+    list-style-type: none;
+}
+
+.center_img {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">

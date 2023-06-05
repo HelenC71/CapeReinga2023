@@ -1,0 +1,134 @@
+<html>
+<link href="stylersheet1.css" type="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+    <header> <img src="logo.jpg" class="center_img" alt="Logo" width="50%"></header>
+                    <nav>
+                <ul>
+                    <!--Nav Bar-->
+                    <li><a style="text-decoration:none; font-family:'merriweather'" href="history.html"><b>History</b></a></li>
+                    <li><a style="text-decoration:none; font-family:'merriweather'" href="interestingfacts.html"><b>Facts</b></a></li>
+                    <li><a style="text-decoration:none; font-family:'merriweather'" href="slides.html"><b>Photo Gallery</b></a></li>
+                </ul>
+            </nav>
+    
+    
+    
+    
+<div class="container">
+            <!--Head Image-->
+  <img src="blackererer.jpg" alt="Lighthouse" style="width:101%">
+      <div class="centered" style="font-family:'merriweather'"><b><mark>Photo Gallery for Cape Reinga</mark></b></div>
+</div>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="RoadTrip8-e1647330582407.jpg" width="1600px" height="800px">
+  <div class="text">Cape Reinga at Night Time</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="ighthouse.jpg" width="1600px" height="800px">
+  <div class="text">Indepth picture of the famous sign</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="maxresdefault.jpg" width="1600px" height="800px">
+  <div class="text">Far shot of the Lighthouse and scenery</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<img src="blackline.png" style="width:100%">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="video">
+    <iframe width="940" height="529" src="https://www.youtube.com/embed/0HtQ-KNLDRk" title="Bay of Islands   Cape Reinga Day Trip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+    
+    <div class="footer">
+  <p>
+      <br>
+      Our Contacts
+      <br>
+      <br>
+        <img src="insta1.jpg" width="50.48px" height="50.48px">
+      Instagram
+      <img src="facebook.png" width="50.48px" height="50.48px">
+      Facebook
+      <img src="twitter.png" width="50.48px" height="50.48px">
+      Twitter
+      <img src="reddit.png" width="50.48px" height="50.48px">
+      Reddit
+      <br>
+        </p>
+</div>
+    
+</html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
